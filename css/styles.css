@@ -216,7 +216,7 @@ font-weight: 500;
 .address-link{
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #434455;
 }
@@ -232,7 +232,15 @@ font-weight: 500;
     }
      .address-link {
         padding: 24px 0;
-     }
+    
+       
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.17;
+                letter-spacing: 0.04em;
+                color: #434455;
+            }
+   
          .header-address {
              font-style: normal;
              margin-left: auto;
@@ -310,7 +318,7 @@ padding-top: 112px;
 }
 @media screen and (min-width: 1158px)  {
     .hero {
-        max-width: 1158px;
+        max-width: 1440px;
         padding-top: 188px;
             padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/bd.jpg');
@@ -888,7 +896,7 @@ overflow: hidden;
 .footer-con {
     display: flex;
     flex-direction: column;
-    text-align: center;
+   
     
 }
 .form-subscribe {
@@ -932,7 +940,19 @@ overflow: hidden;
     color: #fff;
     margin-bottom: 16px;
 
-
+}
+.input-subscribe {
+    border: 1px solid #ffff;
+    border-radius: 4px;
+    width: 288px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffff;
 }
 .footer-link {
     margin-bottom: 72px;
@@ -944,7 +964,7 @@ overflow: hidden;
             flex-wrap: wrap;
             flex-direction: row;
             gap: 0 24px;
-         text-align: start;
+         align-items: flex-start;
         }
                    .main-footer {
         
@@ -954,7 +974,7 @@ overflow: hidden;
                                    .footer-link {
                                        margin-bottom: 0;
                                    }
-        .form-subscribe {
+           .form-subscribe {
             display: flex;
             gap: 24px;
             flex-direction: row;
@@ -1058,19 +1078,7 @@ overflow: hidden;
 }
 
 
-.input-subscribe {
-    border: 1px solid #ffff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    background-color: transparent;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #ffff;
-}
+
 .logo-footer{
    
 }
@@ -1422,7 +1430,7 @@ position: absolute;
 
 .mob-nav-menu{
     position: fixed;
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
     flex-direction: column;
     top: 0;
@@ -1504,7 +1512,7 @@ position: absolute;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-        color: #434455;
+   
  }
  .mob-address {
 font-style: normal;
@@ -1516,6 +1524,11 @@ margin-bottom: 48px;
      
         align-items: center;
       
+}
+
+
+.mob-link {
+    color: #434455;
 }
  
 
