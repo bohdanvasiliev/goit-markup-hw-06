@@ -405,7 +405,7 @@ background-color: #404bbf;
 .advantages-list {
     display: flex;
 flex-direction: column;
-    gap: 24px;
+    gap: 72px;
 
 }
 @media screen and (min-width: 768px) {
@@ -751,7 +751,17 @@ margin: 0 auto;
                                                                    .logo-footer {
                                                                        display: flex;
                                                                        justify-content: flex-start;
-                                                                   }
+    .footer-link {
+            margin-bottom: 72px;
+        }
+    
+        .footer-con {}
+    
+        .main-footer {
+    
+            margin-bottom: 72px;
+    
+        }                                                             }
 }
 
 
@@ -798,7 +808,7 @@ margin: 0 auto;
 
 @media screen and (min-width: 768px){
     .footer-con {
-        height: 584px;
+        width: 584px;
     }
     
 }
@@ -897,7 +907,29 @@ overflow: hidden;
     letter-spacing: 0.04em;
     color: #ffff;
 }
+.media {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 
+}
+.title-subscribe {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+
+
+}
 @media screen and (min-width: 768px) {
     .footer-con {
         justify-content: flex-start;
@@ -1008,29 +1040,8 @@ overflow: hidden;
     cursor: pointer;
 
 }
-.title-subscribe {
-display: flex;
-justify-self: start;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
 
 
-}
-.media {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
-
-}
 .input-subscribe {
     border: 1px solid #ffff;
     border-radius: 4px;
