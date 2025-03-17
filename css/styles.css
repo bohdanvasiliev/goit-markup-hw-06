@@ -723,6 +723,7 @@ margin: 0 auto;
         text-transform: capitalize;
         margin-bottom: 72px;
 }
+
 @media screen and (min-width:768px) {
     .list-item {
             width: calc((100% - 24px) / 2);
@@ -767,7 +768,7 @@ margin: 0 auto;
                                    }
                                                                    .logo-footer {
                                                                        display: flex;
-                                                                       justify-content: flex-start;
+                                                                       justify-content: flex-start;}
     .footer-link {
             margin-bottom: 72px;
         }
@@ -778,7 +779,7 @@ margin: 0 auto;
     
             margin-bottom: 72px;
     
-        }                                                             }
+        }                                                             
 }
 
 
@@ -860,6 +861,10 @@ overflow: hidden;
     padding-top: 96px;
     padding-bottom: 96px;
 }
+.logo-footer {
+    display: flex;
+   justify-content: center;
+}
 
 .logo-footer {
    font-family: "Raleway", sans-serif;
@@ -869,8 +874,9 @@ overflow: hidden;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        display: inline-block;
+        /* display: inline-block; */
         margin-bottom: 16px;
+   
 }
 
 .logo-footer-style {
@@ -941,6 +947,12 @@ overflow: hidden;
     margin-bottom: 16px;
 
 }
+.main-footer {
+   
+    margin-bottom: 72px;
+  
+    
+}
 .input-subscribe {
     border: 1px solid #ffff;
     border-radius: 4px;
@@ -957,6 +969,9 @@ overflow: hidden;
 .footer-link {
     margin-bottom: 72px;
 }
+.logo-footer {
+  
+}
 @media screen and (min-width: 768px) {
     .footer-con {
         justify-content: flex-start;
@@ -967,8 +982,10 @@ overflow: hidden;
          align-items: flex-start;
         }
                    .main-footer {
-        
-                       margin-bottom: 0;
+                   
+               
+                    
+                    
         
                    }
                                    .footer-link {
@@ -1032,7 +1049,8 @@ overflow: hidden;
     .main-footer {
     
             margin-right: 120px;
-    
+        
+            
         }
 .footer-link {
     margin-right: 80px;
@@ -1079,18 +1097,11 @@ overflow: hidden;
 
 
 
-.logo-footer{
-   
-}
 
 /* .footer-con {
 
 } */
-.main-footer {
 
-   margin-bottom: 72px;
-
-}
 .subscribe-btn {
     display: flex;
     margin: 0 auto;
